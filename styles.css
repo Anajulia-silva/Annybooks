@@ -1,6 +1,9 @@
 body{
   color:rgb(71, 2, 71);
-  background:rgb(212, 80, 212);
+  background-image:url("pexels-thought-catalog-317580-904616.jpg");
+  background-repeat: repeat-x;
+  background-position: center center;
+  background-size:cover ;
   margin:0px;
   font-family: "Sour Gummy", sans-serif;
   margin-bottom: 100px;
@@ -13,14 +16,15 @@ header{
   color: rgb(71,3,71);
 }
 
+
+
 section{ 
-  background:rgb(241, 150, 253);
+  background:rgb(239, 158, 250);
+  opacity:0.7;
   padding-bottom: 20px;
   padding-top: 20px;
   display: flex;
   justify-content:center;
-
-
 
 }
 .chamada-texto {
@@ -28,7 +32,7 @@ section{
 
 }
 h1{
-  font-size:30px;
+  font-size:40px;
 
 }
 
@@ -46,9 +50,11 @@ h2{
   display: flex;
   overflow-x: auto;
   gap: 10px;
+  margin-top: 10px;
+  margin-left: auto;
 }
 .categoria-videos img{
-  opacity: 0.5;
+  opacity: 0.7;
   height:120px;
 }
 .categoria-videos img:hover{
