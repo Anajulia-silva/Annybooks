@@ -19,8 +19,8 @@ header{
 
 
 section{ 
-  background:rgb(239, 158, 250);
-  opacity:0.7;
+  background:rgb(109, 45, 117);
+  opacity:0.9;
   padding-bottom: 20px;
   padding-top: 20px;
   display: flex;
@@ -54,10 +54,13 @@ h2{
   margin-left: auto;
 }
 .categoria-videos img{
-  opacity: 0.7;
+  opacity: 0.6;
   height:120px;
 }
 .categoria-videos img:hover{
   opacity: 1.0;
   border: 2px solid rgb(29, 1, 29)
+}
+.categoria-videos p{
+  color:black;
 }
